@@ -20,8 +20,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickNewActivity"
+<<<<<<< Updated upstream
         android:text="Start new activity!"
         app:layout_constraintBottom_toTopOf="@+id/textView"
+=======
+        android:text="Start new activity"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+>>>>>>> Stashed changes
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
